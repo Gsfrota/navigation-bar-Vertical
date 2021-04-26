@@ -1,0 +1,81 @@
+/* Importação da fonte Orelega one
+https://fonts.google.com/specimen/Orelega+One#standard-styles
+*/
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    font-family: Orelega One ;
+    font-size:30px
+}
+body{
+    background: grey;
+}
+
+
+
+/***********
+Header mennu
+************/
+header{
+    background:black;
+    height:60px;
+    
+}
+#title{
+    color: white;
+    text-align:center;
+    line-height: 60px ;
+    font-family: Orelega One ;
+    font-size:30px
+}   
+
+
+/************************
+Barra de navegação vertical
+*********************/
+
+.Lista-lateral{
+    list-style-type:none ; 
+    padding:0;
+    margin:0;
+    
+}
+ul a{
+    width:200px;
+    
+    height: 40px;
+    
+    color: black;
+    
+    background:url(/menu.png) no-repeat;
+    
+    list-style-type:none;
+    
+    display:block;
+    
+    border:1px solid rgb(243, 220, 17);
+    
+    text-align: center ;
+    
+    text-decoration: none;
+    
+    line-height: 40px ;
+
+    font-size:25px;
+
+    
+}
+
+a:hover{
+background-position: right bottom;
+color:white;
+}
+
+#links{
+    margin-top:100px;
+}
+/************************
+ Fim da Barra de navegação vertical
+*********************/
