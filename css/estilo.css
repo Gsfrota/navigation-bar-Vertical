@@ -7,7 +7,8 @@ https://fonts.google.com/specimen/Orelega+One#standard-styles
     padding:0;
     margin:0;
     font-family: Orelega One ;
-    font-size:30px
+    font-size:30px;
+    box-sizing: border-box;
 }
 body{
     background: grey;
@@ -30,52 +31,54 @@ header{
     font-family: Orelega One ;
     font-size:30px
 }   
-
+/***********
+Fim Header mennu
+************/
 
 /************************
 Barra de navegação vertical
 *********************/
 
-.Lista-lateral{
+#Barra-lateral{
     list-style-type:none ; 
     padding:0;
     margin:0;
-    
+    background-color: rgb(223, 167, 15);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border:1px solid rgb(36, 35, 33);
+    align-items: center; 
 }
-ul a{
-    width:200px;
-    
-    height: 40px;
-    
+li{
+    border-bottom :1px solid rgb(36, 35, 33);  
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px;
+   
+    list-style-type:none;
+}
+
+.Lista-lateral a{
     color: black;
-    
     background:url(/menu.png) no-repeat;
-    
     list-style-type:none;
     
-    display:block;
-    
-    border:1px solid rgb(243, 220, 17);
-    
-    text-align: center ;
-    
+    text-align: center ; 
     text-decoration: none;
-    
-    line-height: 40px ;
-
-    font-size:25px;
+    font-size:25px;   
 
     
 }
 
 a:hover{
-background-position: right bottom;
-color:white;
+    background-position: right bottom;
+    color:white;
 }
 
-#links{
-    margin-top:100px;
-}
+
 /************************
  Fim da Barra de navegação vertical
 *********************/
+
