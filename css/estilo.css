@@ -40,9 +40,6 @@ Barra de navegação vertical
 *********************/
 
 #Barra-lateral{
-    list-style-type:none ; 
-    padding:0;
-    margin:0;
     background-color: rgb(223, 167, 15);
     width: 200px;
     display: flex;
@@ -52,17 +49,18 @@ Barra de navegação vertical
     align-items: center; 
 }
 li{
-    border-bottom :1px solid rgb(36, 35, 33);  
-    width: 100%;
+    background-color: rgb(223, 167, 15);
+    border :1px solid rgb(36, 35, 33);  
+    width: 200px;
     text-align: center;
     padding: 15px 0px;
-   
     list-style-type:none;
 }
 
 .Lista-lateral a{
+    
     color: black;
-    background:url(/menu.png) no-repeat;
+    
     list-style-type:none;
     
     text-align: center ; 
@@ -73,9 +71,28 @@ li{
 }
 
 a:hover{
-    background-position: right bottom;
+    color: white;
+   
+    
+}
+.Home a{
+    
     color:white;
 }
+.Contato a{
+    color:white;
+}
+.Serviços a{
+    color:white;
+}
+.Noticias a{
+    color:white;
+}
+.Sobre a{
+    color:white;
+}
+
+
 
 
 /************************
